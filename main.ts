@@ -12,7 +12,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const JOKE =
-  'My agent ships code so fast the reviewer stopped reading my diffs and started reviewing my prompts.';
+  'My agent ships code so fast the reviewer stopped reading my diffs and started reviewing my prompts instead — the one place a human still decides what the code was supposed to do.';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
